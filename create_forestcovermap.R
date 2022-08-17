@@ -8,7 +8,7 @@
 # Run in parallel over tiles. 
 
 ## Run as:
-# Rscript RCode/create_forestcovermap.R --tile <> --threshold <> --year <> --indir <> --outdir <>
+# Rscript create_forestcovermap.R --tile <> --threshold <> --year <> --indir <> --outdir <>
 
 library(optparse)
 library(raster)
