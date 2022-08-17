@@ -16,4 +16,6 @@ Rscript create_forestcovermap.R \
 --indir <> \
 --outdir <>
 
-To run it in parallel, edit the *.submit script as needed.
+To run it in parallel, edit the .submit script as needed. 
+
+If merging rasters after procssing is desired, use https://gdal.org/programs/gdal_merge.html
