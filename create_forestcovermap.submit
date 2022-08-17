@@ -1,4 +1,7 @@
 #/bin/bash
+# This code runs through a set of tiles, and submits an sbatch job for each.
+# The threshold and year of intersest are set in this script, change as needed. 
+
 for tile in 10N_050W 10N_060W 10N_070W 00N_050W 00N_060W 00N_070W 00N_080W 10S_050W 10S_060W 10S_060W 10S_070W 10S_080W
 do
 sbatch Code/create_forestcovermap.sh $tile 0.5 2016 /lrs/jkellne_data/Hansen/ /lrs/jkellne_data/jburley/Amazon2016_ms/Data/
